@@ -3,6 +3,7 @@ import { useHistory } from 'react-router-dom';
 
 import filesize from 'filesize';
 
+import { fluidRange } from 'polished';
 import Header from '../../components/Header';
 import FileList from '../../components/FileList';
 import Upload from '../../components/Upload';
@@ -23,24 +24,36 @@ const Import: React.FC = () => {
   const history = useHistory();
 
   async function handleUpload(): Promise<void> {
-    // const data = new FormData();
+    const data = new FormData();
 
-    // TODO
+    if (!uploadedFiles.length) return;
 
+    const file = uploadedFiles[0];
+    data.append('file', file.file, file.name);
     try {
-      // await api.post('/transactions/import', data);
+      await api.post('/transactions/import', data, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+        },
+      });
+      history.push('/');
     } catch (err) {
-      // console.log(err.response.error);
+      console.log(err);
     }
   }
 
   function submitFile(files: File[]): void {
-    // TODO
+    const fileList = files.map(file => ({
+      file,
+      name: file.name,
+      readableSize: filesize(file.size),
+    }));
+    setUploadedFiles(fileList);
   }
 
   return (
     <>
-      <Header size="small" />
+      <Header page="Importar" size="small" />
       <Container>
         <Title>Importar uma transação</Title>
         <ImportFileContainer>
