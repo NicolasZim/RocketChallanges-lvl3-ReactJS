@@ -2,16 +2,16 @@
     Challenge RocketSeat - Level 3
 </h1>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/NicolasZim/BreadcrumbsRocketChallanges-lvl3-ReactJS">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/NicolasZim/RocketChallanges-lvl3-ReactJS">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/NicolasZim/BreadcrumbsRocketChallanges-lvl3-ReactJS">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/NicolasZim/RocketChallanges-lvl3-ReactJS">
   
-  <a href="https://github.com/NicolasZim/BreadcrumbsRocketChallanges-lvl3-ReactJS/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/NicolasZim/BreadcrumbsRocketChallanges-lvl3-ReactJS">
+  <a href="https://github.com/NicolasZim/RocketChallanges-lvl3-ReactJS/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/NicolasZim/RocketChallanges-lvl3-ReactJS">
   </a>
 
-  <a href="https://github.com/NicolasZim/BreadcrumbsRocketChallanges-lvl3-ReactJS/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/NicolasZim/BreadcrumbsRocketChallanges-lvl3-ReactJS">
+  <a href="https://github.com/NicolasZim/RocketChallanges-lvl3-ReactJS/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/NicolasZim/RocketChallanges-lvl3-ReactJS">
   </a>
 
 <p align="center">
